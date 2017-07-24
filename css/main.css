@@ -27,6 +27,13 @@ section>div.container{
 }
 
 section{
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 200px;
+}
+
+#profile-pic{
+    /* border: 1px solid black; */
+    margin-top:-120px;
+    border-radius: 150px;
+    height: 200px;
+    width : 200px;
 }
