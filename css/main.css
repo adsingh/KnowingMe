@@ -26,11 +26,23 @@ section>div.container{
     background: white;
 }
 
-section{
+section:nth-of-type(1){
     margin-top: 200px;
+}
+
+section{
+    margin-top: 120px;
 }
 
 #profile-pic{
     margin: 0 auto ;
     margin-top:-11em; 
+}
+
+#intro{
+    width : 50%;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
 }
