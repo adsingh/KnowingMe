@@ -17,6 +17,14 @@ div>a.navbar-item{
     color : white;
 }
 
+.navbar {
+    position: fixed !important; 
+    top: 0;  
+    left: 0; 
+    right: 0;
+    z-index: 2;
+}
+
 nav>div.container {
     padding-top: 8px;
     width: 40%;
@@ -27,11 +35,13 @@ section>div.container{
 }
 
 section:nth-of-type(1){
-    margin-top: 200px;
+    margin-top: 50px;
+    padding-top: 250px;
 }
 
 section{
-    margin-top: 120px;
+    margin-top: 50px;
+    padding-top: 100px;
 }
 
 #profile-pic{
