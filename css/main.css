@@ -60,3 +60,74 @@ section{
 .padding {
     padding-bottom: 40px; 
 }
+
+#form{
+    background: #333333;
+    padding-top: 40px;
+    margin-top: 30px;
+}
+
+label {
+    display: block;
+    padding-top: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+
+label .label-text{
+
+    font-size : 20px;
+    line-height: 20px;
+    color: #9B9B9B;
+    cursor: text;
+    text-transform: uppercase;
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+    transition: all 0.3s;
+}
+
+label input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #4A4A4A;
+  color: white;
+  font-size: 36px;
+  letter-spacing: -1px;
+  outline: 0;
+  padding: 5px 20px;
+  text-align: center;
+  width: 200px;
+  transition: all 0.3s;
+}
+label input:focus {
+  width: 400px;
+}
+
+label input:focus + .label-text{
+    
+    color: #F0F0F0;
+    font-size: 13px;
+    -moz-transform: translateY(-42px);
+    -ms-transform: translateY(-42px);
+    -webkit-transform: translateY(-42px);
+    transform: translateY(-42px);
+}
+
+label input:valid + .label-text {
+  font-size: 13px;
+  -moz-transform: translateY(-74px);
+  -ms-transform: translateY(-74px);
+  -webkit-transform: translateY(-74px);
+  transform: translateY(-74px);
+}
+
+#submit_btn {
+    width: 200px;
+}
+
+#social_ntw {
+    margin-top: 20px;
+}
