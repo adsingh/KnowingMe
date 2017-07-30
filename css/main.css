@@ -59,7 +59,13 @@ section{
 
 .padding {
     padding-bottom: 40px; 
+    width: 50%;
+    margin: 0 auto;
 }
+ 
+.level-item>a{
+    width: 185px;
+} 
 
 #form{
     background: #333333;
@@ -130,4 +136,5 @@ label input:valid + .label-text {
 
 #social_ntw {
     margin-top: 20px;
+    margin-bottom: 30px;
 }
