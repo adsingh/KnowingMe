@@ -67,6 +67,16 @@ section{
     width: 185px;
 } 
 
+/* SKILLS  */
+
+#skills h1+div{
+    margin-top: 40px;
+}
+
+progress.progress{
+    width: 80%;
+}
+
 /* Education section */
 .timeline ul li{
     list-style-type: none; 
