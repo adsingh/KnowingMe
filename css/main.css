@@ -67,17 +67,39 @@ section{
     width: 185px;
 } 
 
-/* SKILLS  */
+/* SKILLS  SECTION */
 
 #skills h1+div{
     margin-top: 40px;
 }
 
-progress.progress{
-    width: 80%;
+.progress-bar{
+    margin-top : 15px;
+    margin-bottom: 20px;
+    height: 5px;
+    background: #d4d4d6;
 }
 
-/* Education section */
+.current-progress{
+    height: 5px;
+    background: #00d1b2;
+    position: relative;
+}
+
+.current-progress .fa{
+    margin-top: -6px;
+    position: absolute;
+    margin-left: 100%;
+    color: #00d1b2;
+}
+
+.column>.fa-calendar-check-o{
+    font-size: 3em;
+    margin-left: 40%;
+}
+
+/* EDUCATION SECTION */
+
 .timeline ul li{
     list-style-type: none; 
     position: relative; 
@@ -85,14 +107,16 @@ progress.progress{
     margin: 0 auto; 
     padding-top: 50px; 
     background: #fff;
+    /* color : white; */
 }
 
 .timeline ul li div {
     position: relative;
     padding: 15px;
     bottom : 0;
-    width: 400px;
-    background: #F45B69;
+    width: 300px;
+    background: white;
+    /* background: #F45B69; */
 }
 
  .timeline ul li div::before {
@@ -105,23 +129,25 @@ progress.progress{
 } 
 
 .timeline ul li:nth-child(odd) div {
-  left: 45px;
+  left: 50px;
 }
  
  .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0; 
-  border-color: transparent #F45B69 transparent transparent; 
+  border-color: transparent white transparent transparent;  
+   /* border-color: transparent #F45B69 transparent transparent;   */
 } 
 
 .timeline ul li:nth-child(even) div {
-  left: -439px;
+  left: -346px;    /*  -(Width + 39) */
 }
  
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #F45B69;
+  border-color: transparent transparent transparent white;
+  /* border-color: transparent transparent transparent #F45B69; */
 }
 
  .timeline ul li::after{
@@ -142,7 +168,7 @@ progress.progress{
 }
  
 .timeline ul li.in-view::after {
-  background: #F45B69;
+  background: #00d1b2;
 }
  
 .timeline ul li div {
