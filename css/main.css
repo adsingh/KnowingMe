@@ -114,7 +114,7 @@ section{
     position: relative;
     padding: 25px;
     bottom : 0;
-    width: 500px;
+    width: 400px;
     background: white;
     /* background: #F45B69; */
 }
@@ -140,7 +140,7 @@ section{
 } 
 
 .timeline ul li:nth-child(even) div {
-  left: -539px;    /*  -(Width + 39) */
+  left: -439px;    /*  -(Width + 39) */
 }
  
 .timeline ul li:nth-child(even) div::before {
