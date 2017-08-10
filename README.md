@@ -1,4 +1,5 @@
 # Resume
+### Link: [Resume_Amardeepsingh](https://adsingh.github.io/Resume/)
 
 - <strong>Name:</strong> Amardeepsingh
 - <strong>Current position:</strong> Research Assistant with [ACIS Lab](https://www.acis.ufl.edu/people/asiglani)
