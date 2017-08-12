@@ -4,6 +4,12 @@
     <title>Resume</title>
     <!-- Bulma CDN  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.3/css/bulma.min.css"> 
+    <!-- JQuery CDN  -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
     <!-- Local CSS Files  -->
     <link rel="stylesheet" href="css/main.css">
     <!-- Google font  -->
@@ -315,7 +321,7 @@
         <h1 class="title is-2 has-text-centered"><span><i class="fa fa-paper-plane-o"></i></span>Contact</h1>
         <div class="card">
           <div class="card-content has-text-centered">
-            <form action="http://128.227.150.15:443/demo" method="post">
+            <form id="contact-form" action="http://128.227.150.15:443/demo" method="post">
               <div class="columns">
                 <div id="form" class="column is-6">
                   <label>
@@ -345,7 +351,7 @@
                 </div>
               </div>
               <br>
-              <button id="submit_btn" class="button is-primary is-outlined is-large" type="Submit">Submit</button>
+              <button id="submit_btn" class="button is-primary is-outlined is-large" onclick="submit()">Submit</button>
             </form>
           </div>
         </div>
@@ -361,5 +367,16 @@
         </div>
       </div>
     </section>
+
+    <script>
+      
+      function submit(){
+        var frm = document.getElementById('contact-form');
+        frm.submit();
+        frm.reset();
+        console.log('form reset');
+        return false;
+      }
+    </script>
   </body>
 </html>
