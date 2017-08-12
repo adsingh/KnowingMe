@@ -373,9 +373,8 @@
       function submit(){
         var frm = document.getElementById('contact-form');
         frm.submit();
-        frm.reset();
+        $('#contact-form').children('input').val('')
         console.log('form reset');
-        return false;
       }
     </script>
   </body>
