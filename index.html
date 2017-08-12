@@ -370,10 +370,14 @@
 
     <script>
       
+      $(document).ready(()=>{
+        var frm = document.getElementById('contact-form');
+        frm.reset();
+      });
+
       function submit(){
         var frm = document.getElementById('contact-form');
         frm.submit();
-        $('#contact-form').children('input').val('')
         console.log('form reset');
       }
     </script>
