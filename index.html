@@ -371,15 +371,16 @@
     <script>
       
       $(document).ready(()=>{
+        console.log('doc ready');
         var frm = document.getElementById('contact-form');
         frm.reset();
-        console.log('doc ready');
+        
       });
 
       function submit(){
+        console.log('form reset');
         var frm = document.getElementById('contact-form');
         frm.submit();
-        console.log('form reset');
       }
     </script>
   </body>

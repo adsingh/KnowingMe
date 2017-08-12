@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   var links = document.getElementsByClassName("toggle");
-  console.log(links.length);
+  // console.log(links.length);
   Array.prototype.forEach.call(links, (link)=>{
     link.addEventListener('click',()=>{
         
