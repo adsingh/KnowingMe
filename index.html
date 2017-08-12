@@ -352,9 +352,15 @@
                 </div>
               </div>
               <br>
-              <button id="submit_btn" class="button is-primary is-outlined is-large" onclick="submit()">Submit</button>
+              <button id="submit_btn" class="button is-primary is-outlined is-large" onclick="formSubmit()">Submit</button>
             </form>
           </div>
+        </div>
+
+        <br>
+        <div id='msg-noti' class="notification is-primary">
+          <button class="delete" onclick="removeMessage()"></button>
+          <h1 class='title'>Message sent successfully <i class="fa fa-smile-o" aria-hidden="true"></i></h1>
         </div>
       </div>
 
@@ -372,17 +378,24 @@
     <script>
       
       $(document).ready(()=>{
-        console.log('doc ready');
-        var frm = document.getElementById('contact-form');
-        frm.reset();
+        
+        var noti = document.getElementById('msg-noti');
+        noti.style.display = 'none';
         
       });
 
-      function submit(){
-        console.log('form reset');
+      function formSubmit(){
+        
+        var noti = document.getElementById('msg-noti');
+        noti.style.display = 'block';
         var frm = document.getElementById('contact-form');
         frm.submit();
         return true;
+      }
+
+      function removeMessage(){
+        var noti = document.getElementById('msg-noti');
+        noti.style.display = 'none';
       }
     </script>
   </body>
