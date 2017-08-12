@@ -315,36 +315,38 @@
         <h1 class="title is-2 has-text-centered"><span><i class="fa fa-paper-plane-o"></i></span>Contact</h1>
         <div class="card">
           <div class="card-content has-text-centered">
-            <div class="columns">
-              <div id="form" class="column is-6">
-                <label>
-                  <input type="text"  required>
-                  <div class="label-text">Full Name*</div>
-                </label>
+            <form action="http://128.227.150.15:443/demo" method="post">
+              <div class="columns">
+                <div id="form" class="column is-6">
+                  <label>
+                    <input name="full_name" type="text"  required>
+                    <div class="label-text" name="full_name">Full Name*</div>
+                  </label>
+                </div>
+                <div id="form" class="column is-6">
+                  <label>
+                    <input name="email" type="text"  required>
+                    <div name"email" class="label-text">Email*</div>
+                  </label>
+                </div>
               </div>
-              <div id="form" class="column is-6">
-                <label>
-                  <input type="text"  required>
-                  <div class="label-text">Email*</div>
-                </label>
+              <div class="columns">
+                <div id="form" class="column is-6">
+                  <label>
+                    <input name="subject" type="text"  required>
+                    <div name="subject" class="label-text">Subject*</div>
+                  </label>
+                </div>
+                <div id="form" class="column is-6">
+                  <label>
+                    <input name="message" type="text"  required>
+                    <div name="message" class="label-text">Message*</div>
+                  </label>
+                </div>
               </div>
-            </div>
-            <div class="columns">
-              <div id="form" class="column is-6">
-                <label>
-                  <input type="text"  required>
-                  <div class="label-text">Subject*</div>
-                </label>
-              </div>
-              <div id="form" class="column is-6">
-                <label>
-                  <input type="text"  required>
-                  <div class="label-text">Message*</div>
-                </label>
-              </div>
-            </div>
-            <br>
-            <a id="submit_btn" class="button is-primary is-outlined is-large" href="">Submit</a>
+              <br>
+              <button id="submit_btn" class="button is-primary is-outlined is-large" type="Submit">Submit</button>
+            </form>
           </div>
         </div>
       </div>

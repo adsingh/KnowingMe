@@ -1,0 +1,15 @@
+{
+  "name": "portfolio_website",
+  "version": "1.0.0",
+  "description": "Website describing my academic and professional life",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Siglani Amardeepsingh",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.4"
+  }
+}
