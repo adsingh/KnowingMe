@@ -47,6 +47,8 @@ section{
 #profile-pic{
     margin: 0 auto ;
     margin-top:-11em; 
+    max-width: 250px;
+    min-width: 250px;
 }
 
 #intro{
