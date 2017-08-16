@@ -270,6 +270,8 @@ label .label-text{
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
     transition: all 0.3s;
+    text-align: left;
+    margin-left: 10%;
 }
 
 label input {
@@ -281,12 +283,21 @@ label input {
   letter-spacing: -1px;
   outline: 0;
   padding: 5px 20px;
-  text-align: center;
-  width: 400px;
+  text-align: left;
+  /* width: 400px; */
   transition: all 0.3s;
+  width: 80%;
 }
-label input:focus {
+/* label input:focus {
   width: 600px;
+} */
+
+.same-column{
+    width : 92%;
+}
+
+div[name='full_name'], div[name='email']{
+    margin-left: 4%;
 }
 
 label input:focus + .label-text{
