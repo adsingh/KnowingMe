@@ -242,13 +242,18 @@ section{
 .anime-card p.tenure {
     color: gray;
 }
-
+ 
 .title{
-    font-weight: 400;
-}
+    font-weight: 500;
+} 
 
 .title span{
     margin-right: 30px;
+}
+
+/* Web development projects section  */
+.project-img{
+    padding: 20px;
 }
 
 /* Contact Section  */
