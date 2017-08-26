@@ -25,6 +25,15 @@ div>a.navbar-item{
     z-index: 2;
 }
 
+.navbar-burger{
+    background: gray;
+    height: 60px;
+}
+
+#logo{
+    height: 60px;
+}
+
 nav>div.container {
     padding-top: 8px;
     width: 40%;
