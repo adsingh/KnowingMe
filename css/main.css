@@ -342,3 +342,34 @@ label input:valid + .label-text {
     margin-top: 20px;
     margin-bottom: 30px;
 }
+
+/* SOCIAL NETWORKING  */
+#social-ntw-btn .fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 20%;
+    height: 75px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 20px 6%;
+    color:white;
+}
+
+#social-ntw-btn .fa:hover{
+    opacity: 0.8;
+    color: white;
+}
+
+.fa-linkedin{
+    background: #007bb5;
+    
+}
+
+.fa-facebook-official{
+    background: #3b5998;
+}
+
+ .fa-github-alt{
+    background: black;
+} 
+
