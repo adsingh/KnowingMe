@@ -17,6 +17,10 @@ div>a.navbar-item{
     color : white;
 }
 
+#navbarMenu{
+    margin-left: -150px;
+}
+
 .navbar {
     position: fixed !important; 
     top: 0;  
