@@ -17,9 +17,9 @@ div>a.navbar-item{
     color : white;
 }
 
-#navbarMenu{
+/* #navbarMenu{
     margin-left: -150px;
-}
+} */
 
 .navbar {
     position: fixed !important; 
